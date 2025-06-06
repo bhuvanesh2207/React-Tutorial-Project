@@ -1,0 +1,285 @@
+/* Global Variables */
+:root {
+  --primary-color: #29b6f6;
+  --secondary-color: #0288d1;
+  --text-color: #ddd;
+  --background-dark: #0d0b14;
+  --card-bg: #2c3245;
+  --hover-color: #00ffd5;
+  --java-color: #f89820;
+  --python-color: #306998;
+  --sql-color: #f29111;
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background: var(--background-dark);
+  color: var(--text-color);
+}
+
+/* Component Container Styles */
+.java-container,
+.python-container,
+.sql-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+/* Java Component Styles */
+.java-container h2 {
+  color: var(--java-color);
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(248, 152, 32, 0.5);
+  margin-bottom: 2rem;
+}
+
+.java-container img {
+  max-width: 200px;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.java-container h3 {
+  color: var(--java-color);
+  margin-top: 2rem;
+}
+
+.java-container ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.java-container ul li {
+  margin: 0.5rem 0;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.java-container ul li::before {
+  content: "•";
+  color: var(--java-color);
+  position: absolute;
+  left: 0;
+}
+
+.java-container pre {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.java-container code {
+  color: #00ffd5;
+  font-family: 'Courier New', monospace;
+}
+
+/* Python Component Styles */
+.python-container h2 {
+  color: var(--python-color);
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(48, 105, 152, 0.5);
+  margin-bottom: 2rem;
+}
+
+.python-container img {
+  max-width: 200px;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* SQL Component Styles */
+.sql-container h2 {
+  color: var(--sql-color);
+  font-size: 2.5rem;
+  text-shadow: 0 0 10px rgba(242, 145, 17, 0.5);
+  margin-bottom: 2rem;
+}
+
+.sql-container img {
+  max-width: 200px;
+  margin: 2rem auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Common Styles for All Components */
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+/* Link Styles */
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .java-container,
+  .python-container,
+  .sql-container {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button with subtle gradient + shadow glow on hover */
+.button-primary {
+  background: linear-gradient(135deg, #29b6f6 0%, #0288d1 100%);
+  box-shadow: 0 4px 12px #29b6f6aa;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: background 0.3s ease, box-shadow 0.5s ease;
+}
+
+.button-primary:hover,
+.button-primary:focus {
+  background: linear-gradient(135deg, #0288d1 0%, #015a9c 100%);
+  box-shadow: 0 0 20px #0288d1dd, 0 0 30px #29b6f6bb;
+  outline: none;
+}
+
+/* Card with subtle 3D effect and layered shadow */
+.card {
+  background: linear-gradient(145deg, #2c3245, #222a3a);
+  border-radius: 16px;
+  box-shadow: 
+    0 10px 15px rgba(0, 0, 0, 0.4),
+    inset 0 0 8px #3a4a70cc;
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1), 
+              box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 
+    0 20px 40px #64b5f6cc,
+    inset 0 0 12px #1e88e5dd;  
+}
+
+/* Card Title with glowing text shadow */
+.card-title {
+  text-shadow: 0 0 10px #ffb300dd, 0 0 20px #ffb300aa;
+  letter-spacing: 0.03em;
+}
+
+/* Paragraph subtle highlight on hover */
+.section p:hover {
+  color: #fff;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+/* Inputs with glowing focus and subtle 3D inset */
+.form-input,
+.form-textarea {
+  background: linear-gradient(145deg, #181c24, #222a3a);
+  box-shadow: inset 4px 4px 8px #14171e,
+              inset -4px -4px 8px #2c3245;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  box-shadow: 0 0 15px #29b6f6cc,
+              inset 4px 4px 10px #0d1220,
+              inset -4px -4px 10px #3b4c73;
+  background: #1c2234;
+}
+
+/* Footer with smooth color fade on links */
+.footer a {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  transition: color 0.4s ease, text-shadow 0.4s ease;
+}
+
+.footer a:hover {
+  text-shadow: 0 0 12px #ffb300cc;
+}
+
+/* Add a subtle "scroll to top" button */
+#scrollTopBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: #29b6f6;
+  color: #181c24;
+  padding: 12px 16px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px #29b6f6cc;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.4rem;
+  display: none;
+  user-select: none;
+  z-index: 9999;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+#scrollTopBtn:hover {
+  background: #0288d1;
+  box-shadow: 0 0 24px #0288d1dd;
+}
+
+/* Show the scroll button when scrolled down */
+body.scrolled #scrollTopBtn {
+  display: block;
+}
+
+/* Responsive tweaks for mobile */
+@media (max-width: 600px) {
+  .button-primary {
+    width: 100%;
+    padding: 14px 0;
+    font-size: 1.1rem;
+    box-shadow: 0 6px 16px #29b6f6aa;
+  }
+
+  #scrollTopBtn {
+    bottom: 24px;
+    right: 24px;
+    font-size: 1.2rem;
+    padding: 10px 14px;
+  }
+}
