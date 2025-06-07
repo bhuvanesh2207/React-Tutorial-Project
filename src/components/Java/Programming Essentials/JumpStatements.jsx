@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 export default function JumpStatements() {
   return (
     <>
+    <div className="java-container">
       <h1>🔀 Jump Statements in Java</h1>
       
       <p>
@@ -222,7 +223,7 @@ public class ComplexControlFlow {
           allowFullScreen
         ></iframe>
       </div>
-
+    </div>
       
     </>
   )

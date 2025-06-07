@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 export default function DjangoIntro() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🚀 Introduction to Django Framework</h1>
         
         <p>
@@ -94,9 +94,10 @@ STATICFILES_DIRS = [BASE_DIR / 'static']`}
         <h2>✨ MVT Architecture</h2>
         <ol>
           <li>
-            <strong>Model:</strong> Database layer
-            <pre>
-              <code>
+            <div>
+              <strong>Model:</strong> Database layer
+              <pre>
+                <code>
 {`# models.py
 from django.db import models
 
@@ -108,13 +109,15 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name`}
-              </code>
-            </pre>
+                </code>
+              </pre>
+            </div>
           </li>
           <li>
-            <strong>View:</strong> Business logic layer
-            <pre>
-              <code>
+            <div>
+              <strong>View:</strong> Business logic layer
+              <pre>
+                <code>
 {`# views.py
 from django.shortcuts import render
 from .models import Product
@@ -124,26 +127,29 @@ def product_list(request):
     return render(request, 'myapp/product_list.html', {
         'products': products
     })`}
-              </code>
-            </pre>
+                </code>
+              </pre>
+            </div>
           </li>
           <li>
-            <strong>Template:</strong> Presentation layer
-            <pre>
-              <code>
+            <div>
+              <strong>Template:</strong> Presentation layer
+              <pre>
+                <code>
 {`<!-- templates/myapp/product_list.html -->
-{% extends 'base.html' %}
+{'{%'} extends 'base.html' {'%}'}
 
-{% block content %}
+{'{%'} block content {'%}'}
     <h1>Products</h1>
     <ul>
-    {% for product in products %}
-        <li>{{ product.name }} - ${{ product.price }}</li>
-    {% endfor %}
+    {'{%'} for product in products {'%}'}
+        <li>{'{{'} product.name {'}}'} - ${'{{'} product.price {'}}'}</li>
+    {'{%'} endfor {'%}'}
     </ul>
-{% endblock %}`}
-              </code>
-            </pre>
+{'{%'} endblock {'%}'}`}
+                </code>
+              </pre>
+            </div>
           </li>
         </ol>
 
@@ -228,5 +234,5 @@ def create_product(request):
         </div>
       </div>
     </>
-  )
-} 
+  );
+}

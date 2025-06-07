@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 export default function PatternPrograms() {
   return (
     <>
+      <div className="java-container">
       <h1>🎨 Pattern Programs in Java</h1>
       
       <p>
@@ -257,6 +258,7 @@ public class ComplexPatterns {
           allowFullScreen
         ></iframe>
       </div>
+    </div>
     </>
   )
 }

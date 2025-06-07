@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Encapsulation() {
   return (
-    <>
+    <div className="java-container">
       <h1>🔒 Encapsulation in Java</h1>
       
       <p>
@@ -186,6 +186,6 @@ export default function Encapsulation() {
       </div>
 
     
-    </>
+    </div>
   )
 }

@@ -4,45 +4,46 @@ import {Link} from 'react-router-dom'
 export default function Arrays() {
   return (
     <>
-      <h1>📦 Arrays in Java</h1>
-      
-      <p>
-        Arrays in Java are fixed-size collections of elements of the same type. They provide efficient random access to elements and are fundamental data structures used in various algorithms and applications.
-      </p>
+      <div className="java-container">
+        <h1>📦 Arrays in Java</h1>
+        
+        <p>
+          Arrays in Java are fixed-size collections of elements of the same type. They provide efficient random access to elements and are fundamental data structures used in various algorithms and applications.
+        </p>
 
-      <h2>📋 Array Concepts</h2>
-      <ul>
-        <li>🔍 Array Types
-          <ul>
-            <li>Single-dimensional arrays</li>
-            <li>Multi-dimensional arrays</li>
-            <li>Jagged arrays</li>
-            <li>Object arrays</li>
-          </ul>
-        </li>
-        <li>🔄 Array Operations
-          <ul>
-            <li>Traversal</li>
-            <li>Searching</li>
-            <li>Sorting</li>
-            <li>Modification</li>
-          </ul>
-        </li>
-        <li>📦 Array Methods
-          <ul>
-            <li>Arrays utility class</li>
-            <li>System.arraycopy</li>
-            <li>Array cloning</li>
-            <li>Array conversion</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📋 Array Concepts</h2>
+        <ul>
+          <li>🔍 Array Types
+            <ul>
+              <li>Single-dimensional arrays</li>
+              <li>Multi-dimensional arrays</li>
+              <li>Jagged arrays</li>
+              <li>Object arrays</li>
+            </ul>
+          </li>
+          <li>🔄 Array Operations
+            <ul>
+              <li>Traversal</li>
+              <li>Searching</li>
+              <li>Sorting</li>
+              <li>Modification</li>
+            </ul>
+          </li>
+          <li>📦 Array Methods
+            <ul>
+              <li>Arrays utility class</li>
+              <li>System.arraycopy</li>
+              <li>Array cloning</li>
+              <li>Array conversion</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>💻 Code Examples</h2>
+        <h2>💻 Code Examples</h2>
 
-      <h3>1. Basic Array Operations</h3>
-      <pre>
-        <code>
+        <h3>1. Basic Array Operations</h3>
+        <pre>
+          <code>
 {`// Basic array operations
 public class ArrayBasics {
     public static void main(String[] args) {
@@ -66,12 +67,12 @@ public class ArrayBasics {
         System.out.println("Array length: " + numbers.length);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>2. Multi-dimensional Arrays</h3>
-      <pre>
-        <code>
+        <h3>2. Multi-dimensional Arrays</h3>
+        <pre>
+          <code>
 {`// Multi-dimensional arrays
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
@@ -97,12 +98,12 @@ public class MultiDimensionalArrays {
         jaggedArray[2] = new int[4];
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>3. Array Sorting and Searching</h3>
-      <pre>
-        <code>
+        <h3>3. Array Sorting and Searching</h3>
+        <pre>
+          <code>
 {`// Array sorting and searching
 import java.util.Arrays;
 
@@ -124,12 +125,12 @@ public class ArraySortingSearching {
         System.out.println("Custom sorted: " + Arrays.toString(customArray));
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>4. Array Utility Methods</h3>
-      <pre>
-        <code>
+        <h3>4. Array Utility Methods</h3>
+        <pre>
+          <code>
 {`// Array utility methods
 import java.util.Arrays;
 
@@ -155,78 +156,79 @@ public class ArrayUtilities {
         String arrayString = Arrays.toString(source);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h2>💡 Best Practices</h2>
-      <ul>
-        <li>🎯 Array Usage
-          <ul>
-            <li>Use appropriate size</li>
-            <li>Handle bounds checking</li>
-            <li>Consider ArrayList for dynamic size</li>
-            <li>Use enhanced for loop when possible</li>
-          </ul>
-        </li>
-        <li>🔄 Performance Tips
-          <ul>
-            <li>Minimize array copying</li>
-            <li>Use System.arraycopy for large arrays</li>
-            <li>Consider memory usage</li>
-            <li>Optimize array operations</li>
-          </ul>
-        </li>
-        <li>📦 Common Pitfalls
-          <ul>
-            <li>Array index out of bounds</li>
-            <li>Null pointer exceptions</li>
-            <li>Memory leaks</li>
-            <li>Inefficient operations</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>💡 Best Practices</h2>
+        <ul>
+          <li>🎯 Array Usage
+            <ul>
+              <li>Use appropriate size</li>
+              <li>Handle bounds checking</li>
+              <li>Consider ArrayList for dynamic size</li>
+              <li>Use enhanced for loop when possible</li>
+            </ul>
+          </li>
+          <li>🔄 Performance Tips
+            <ul>
+              <li>Minimize array copying</li>
+              <li>Use System.arraycopy for large arrays</li>
+              <li>Consider memory usage</li>
+              <li>Optimize array operations</li>
+            </ul>
+          </li>
+          <li>📦 Common Pitfalls
+            <ul>
+              <li>Array index out of bounds</li>
+              <li>Null pointer exceptions</li>
+              <li>Memory leaks</li>
+              <li>Inefficient operations</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>📝 Real-World Applications</h2>
-      <ul>
-        <li>📊 Data Processing
-          <ul>
-            <li>Image processing</li>
-            <li>Matrix operations</li>
-            <li>Data analysis</li>
-            <li>Signal processing</li>
-          </ul>
-        </li>
-        <li>🎮 Game Development
-          <ul>
-            <li>Game state storage</li>
-            <li>Grid-based games</li>
-            <li>Particle systems</li>
-            <li>Collision detection</li>
-          </ul>
-        </li>
-        <li>🌐 Web Development
-          <ul>
-            <li>Data caching</li>
-            <li>Request handling</li>
-            <li>Session storage</li>
-            <li>Configuration management</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📝 Real-World Applications</h2>
+        <ul>
+          <li>📊 Data Processing
+            <ul>
+              <li>Image processing</li>
+              <li>Matrix operations</li>
+              <li>Data analysis</li>
+              <li>Signal processing</li>
+            </ul>
+          </li>
+          <li>🎮 Game Development
+            <ul>
+              <li>Game state storage</li>
+              <li>Grid-based games</li>
+              <li>Particle systems</li>
+              <li>Collision detection</li>
+            </ul>
+          </li>
+          <li>🌐 Web Development
+            <ul>
+              <li>Data caching</li>
+              <li>Request handling</li>
+              <li>Session storage</li>
+              <li>Configuration management</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>🎥 Video Tutorial: Arrays in Java</h2>
-      <div style={{marginBottom: "1em"}}>
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/grEKMHGYyns"
-          title="Arrays Tutorial"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <h2>🎥 Video Tutorial: Arrays in Java</h2>
+        <div style={{marginBottom: "1em"}}>
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/grEKMHGYyns"
+            title="Arrays Tutorial"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
       </div>
-
-      <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
     </>
   )
 }

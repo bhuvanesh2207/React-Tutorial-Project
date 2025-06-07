@@ -3,7 +3,7 @@ import React from 'react'
 export default function DjangoViews() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>👁️ Django Views</h1>
         
         <p>

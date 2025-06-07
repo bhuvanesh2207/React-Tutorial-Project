@@ -4,46 +4,47 @@ import {Link} from 'react-router-dom'
 export default function CollectionsFramework() {
   return (
     <>
-      <h1>📚 Collections Framework in Java</h1>
-      
-      <p>
-        The Java Collections Framework provides a unified architecture for representing and manipulating collections. It includes interfaces, implementations, and algorithms to work with groups of objects efficiently.
-      </p>
+      <div className="java-container">
+        <h1>📚 Collections Framework in Java</h1>
+        
+        <p>
+          The Java Collections Framework provides a unified architecture for representing and manipulating collections. It includes interfaces, implementations, and algorithms to work with groups of objects efficiently.
+        </p>
 
-      <h2>📋 Core Components</h2>
-      <ul>
-        <li>🔍 Interfaces
-          <ul>
-            <li>Collection</li>
-            <li>List</li>
-            <li>Set</li>
-            <li>Queue</li>
-            <li>Map</li>
-          </ul>
-        </li>
-        <li>🔄 Implementations
-          <ul>
-            <li>ArrayList and LinkedList</li>
-            <li>HashSet and TreeSet</li>
-            <li>PriorityQueue</li>
-            <li>HashMap and TreeMap</li>
-          </ul>
-        </li>
-        <li>📦 Algorithms
-          <ul>
-            <li>Sorting</li>
-            <li>Searching</li>
-            <li>Shuffling</li>
-            <li>Frequency counting</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📋 Core Components</h2>
+        <ul>
+          <li>🔍 Interfaces
+            <ul>
+              <li>Collection</li>
+              <li>List</li>
+              <li>Set</li>
+              <li>Queue</li>
+              <li>Map</li>
+            </ul>
+          </li>
+          <li>🔄 Implementations
+            <ul>
+              <li>ArrayList and LinkedList</li>
+              <li>HashSet and TreeSet</li>
+              <li>PriorityQueue</li>
+              <li>HashMap and TreeMap</li>
+            </ul>
+          </li>
+          <li>📦 Algorithms
+            <ul>
+              <li>Sorting</li>
+              <li>Searching</li>
+              <li>Shuffling</li>
+              <li>Frequency counting</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>💻 Code Examples</h2>
+        <h2>💻 Code Examples</h2>
 
-      <h3>1. List Implementations</h3>
-      <pre>
-        <code>
+        <h3>1. List Implementations</h3>
+        <pre>
+          <code>
 {`// List implementations
 import java.util.*;
 
@@ -76,12 +77,12 @@ public class ListExamples {
         System.out.println("Sorted: " + arrayList);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>2. Set Implementations</h3>
-      <pre>
-        <code>
+        <h3>2. Set Implementations</h3>
+        <pre>
+          <code>
 {`// Set implementations
 import java.util.*;
 
@@ -115,12 +116,12 @@ public class SetExamples {
         System.out.println("Intersection: " + intersection);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>3. Map Implementations</h3>
-      <pre>
-        <code>
+        <h3>3. Map Implementations</h3>
+        <pre>
+          <code>
 {`// Map implementations
 import java.util.*;
 
@@ -151,12 +152,12 @@ public class MapExamples {
         }
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>4. Queue Implementations</h3>
-      <pre>
-        <code>
+        <h3>4. Queue Implementations</h3>
+        <pre>
+          <code>
 {`// Queue implementations
 import java.util.*;
 
@@ -185,78 +186,79 @@ public class QueueExamples {
         System.out.println("Deque: " + deque);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h2>💡 Best Practices</h2>
-      <ul>
-        <li>🎯 Collection Selection
-          <ul>
-            <li>Choose appropriate collection type</li>
-            <li>Consider thread safety</li>
-            <li>Evaluate performance needs</li>
-            <li>Use generics effectively</li>
-          </ul>
-        </li>
-        <li>🔄 Performance Tips
-          <ul>
-            <li>Initialize with capacity</li>
-            <li>Use appropriate iterators</li>
-            <li>Consider concurrent collections</li>
-            <li>Optimize bulk operations</li>
-          </ul>
-        </li>
-        <li>📦 Common Pitfalls
-          <ul>
-            <li>Concurrent modification</li>
-            <li>Null handling</li>
-            <li>Memory leaks</li>
-            <li>Inefficient operations</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>💡 Best Practices</h2>
+        <ul>
+          <li>🎯 Collection Selection
+            <ul>
+              <li>Choose appropriate collection type</li>
+              <li>Consider thread safety</li>
+              <li>Evaluate performance needs</li>
+              <li>Use generics effectively</li>
+            </ul>
+          </li>
+          <li>🔄 Performance Tips
+            <ul>
+              <li>Initialize with capacity</li>
+              <li>Use appropriate iterators</li>
+              <li>Consider concurrent collections</li>
+              <li>Optimize bulk operations</li>
+            </ul>
+          </li>
+          <li>📦 Common Pitfalls
+            <ul>
+              <li>Concurrent modification</li>
+              <li>Null handling</li>
+              <li>Memory leaks</li>
+              <li>Inefficient operations</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>📝 Real-World Applications</h2>
-      <ul>
-        <li>🌐 Web Development
-          <ul>
-            <li>Session management</li>
-            <li>Request handling</li>
-            <li>Data caching</li>
-            <li>Configuration storage</li>
-          </ul>
-        </li>
-        <li>📱 Mobile Development
-          <ul>
-            <li>Data persistence</li>
-            <li>UI state management</li>
-            <li>Resource handling</li>
-            <li>Event queuing</li>
-          </ul>
-        </li>
-        <li>💾 Data Processing
-          <ul>
-            <li>Data aggregation</li>
-            <li>Batch processing</li>
-            <li>Data transformation</li>
-            <li>Result caching</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📝 Real-World Applications</h2>
+        <ul>
+          <li>🌐 Web Development
+            <ul>
+              <li>Session management</li>
+              <li>Request handling</li>
+              <li>Data caching</li>
+              <li>Configuration storage</li>
+            </ul>
+          </li>
+          <li>📱 Mobile Development
+            <ul>
+              <li>Data persistence</li>
+              <li>UI state management</li>
+              <li>Resource handling</li>
+              <li>Event queuing</li>
+            </ul>
+          </li>
+          <li>💾 Data Processing
+            <ul>
+              <li>Data aggregation</li>
+              <li>Batch processing</li>
+              <li>Data transformation</li>
+              <li>Result caching</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>🎥 Video Tutorial: Collections Framework</h2>
-      <div style={{marginBottom: "1em"}}>
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/grEKMHGYyns"
-          title="Collections Framework Tutorial"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <h2>🎥 Video Tutorial: Collections Framework</h2>
+        <div style={{marginBottom: "1em"}}>
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/grEKMHGYyns"
+            title="Collections Framework Tutorial"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
       </div>
-
-      <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
     </>
   )
 }

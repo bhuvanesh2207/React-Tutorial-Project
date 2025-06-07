@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Inheritance() {
   return (
-    <>
+    <div className="java-container">
       <h1>🔄 Inheritance in Java</h1>
       
       <li>📘 What is Inheritance?
@@ -201,6 +201,6 @@ public class ElectricCar extends Car {
       </div>
 
     
-    </>
+    </div>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Introduction() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🎯 Introduction to Python</h1>
         
         <p>

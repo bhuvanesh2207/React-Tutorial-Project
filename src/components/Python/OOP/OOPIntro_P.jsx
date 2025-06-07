@@ -3,7 +3,7 @@ import React from 'react'
 export default function OOPIntro() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🎯 Introduction to Object-Oriented Programming in Python</h1>
         
         <p>

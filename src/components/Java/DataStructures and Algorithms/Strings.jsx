@@ -4,45 +4,46 @@ import {Link} from 'react-router-dom'
 export default function Strings() {
   return (
     <>
-      <h1>📝 Strings in Java</h1>
-      
-      <p>
-        Strings in Java are immutable sequences of characters. They are one of the most commonly used data types in Java programming, and understanding their manipulation and optimization is crucial for efficient programming.
-      </p>
+      <div className="java-container">
+        <h1>📝 Strings in Java</h1>
+        
+        <p>
+          Strings in Java are immutable sequences of characters. They are one of the most commonly used data types in Java programming, and understanding their manipulation and optimization is crucial for efficient programming.
+        </p>
 
-      <h2>📋 String Concepts</h2>
-      <ul>
-        <li>🔍 String Basics
-          <ul>
-            <li>String creation</li>
-            <li>String immutability</li>
-            <li>String pool</li>
-            <li>String literals</li>
-          </ul>
-        </li>
-        <li>🔄 String Operations
-          <ul>
-            <li>Concatenation</li>
-            <li>Comparison</li>
-            <li>Substring</li>
-            <li>Searching</li>
-          </ul>
-        </li>
-        <li>📦 String Methods
-          <ul>
-            <li>StringBuilder</li>
-            <li>StringBuffer</li>
-            <li>Regular expressions</li>
-            <li>String formatting</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📋 String Concepts</h2>
+        <ul>
+          <li>🔍 String Basics
+            <ul>
+              <li>String creation</li>
+              <li>String immutability</li>
+              <li>String pool</li>
+              <li>String literals</li>
+            </ul>
+          </li>
+          <li>🔄 String Operations
+            <ul>
+              <li>Concatenation</li>
+              <li>Comparison</li>
+              <li>Substring</li>
+              <li>Searching</li>
+            </ul>
+          </li>
+          <li>📦 String Methods
+            <ul>
+              <li>StringBuilder</li>
+              <li>StringBuffer</li>
+              <li>Regular expressions</li>
+              <li>String formatting</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>💻 Code Examples</h2>
+        <h2>💻 Code Examples</h2>
 
-      <h3>1. Basic String Operations</h3>
-      <pre>
-        <code>
+        <h3>1. Basic String Operations</h3>
+        <pre>
+          <code>
 {`// Basic string operations
 public class StringBasics {
     public static void main(String[] args) {
@@ -65,12 +66,12 @@ public class StringBasics {
         System.out.println("Ignore case: " + str1.equalsIgnoreCase("HELLO"));
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>2. String Manipulation</h3>
-      <pre>
-        <code>
+        <h3>2. String Manipulation</h3>
+        <pre>
+          <code>
 {`// String manipulation
 public class StringManipulation {
     public static void main(String[] args) {
@@ -96,12 +97,12 @@ public class StringManipulation {
         System.out.println("Joined: " + joined);
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>3. StringBuilder and StringBuffer</h3>
-      <pre>
-        <code>
+        <h3>3. StringBuilder and StringBuffer</h3>
+        <pre>
+          <code>
 {`// StringBuilder and StringBuffer
 public class StringBuilders {
     public static void main(String[] args) {
@@ -126,12 +127,12 @@ public class StringBuilders {
         System.out.println("Modified: " + sb.toString());
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h3>4. Regular Expressions</h3>
-      <pre>
-        <code>
+        <h3>4. Regular Expressions</h3>
+        <pre>
+          <code>
 {`// Regular expressions
 import java.util.regex.*;
 
@@ -159,78 +160,79 @@ public class RegexExamples {
         }
     }
 }`}
-        </code>
-      </pre>
+          </code>
+        </pre>
 
-      <h2>💡 Best Practices</h2>
-      <ul>
-        <li>🎯 String Usage
-          <ul>
-            <li>Use StringBuilder for concatenation</li>
-            <li>Handle null strings</li>
-            <li>Use string pool effectively</li>
-            <li>Consider immutability</li>
-          </ul>
-        </li>
-        <li>🔄 Performance Tips
-          <ul>
-            <li>Minimize string concatenation</li>
-            <li>Use appropriate string classes</li>
-            <li>Optimize regular expressions</li>
-            <li>Handle large strings</li>
-          </ul>
-        </li>
-        <li>📦 Common Pitfalls
-          <ul>
-            <li>String comparison with ==</li>
-            <li>Memory leaks</li>
-            <li>Inefficient concatenation</li>
-            <li>Regex performance</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>💡 Best Practices</h2>
+        <ul>
+          <li>🎯 String Usage
+            <ul>
+              <li>Use StringBuilder for concatenation</li>
+              <li>Handle null strings</li>
+              <li>Use string pool effectively</li>
+              <li>Consider immutability</li>
+            </ul>
+          </li>
+          <li>🔄 Performance Tips
+            <ul>
+              <li>Minimize string concatenation</li>
+              <li>Use appropriate string classes</li>
+              <li>Optimize regular expressions</li>
+              <li>Handle large strings</li>
+            </ul>
+          </li>
+          <li>📦 Common Pitfalls
+            <ul>
+              <li>String comparison with ==</li>
+              <li>Memory leaks</li>
+              <li>Inefficient concatenation</li>
+              <li>Regex performance</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>📝 Real-World Applications</h2>
-      <ul>
-        <li>🌐 Web Development
-          <ul>
-            <li>URL processing</li>
-            <li>Form validation</li>
-            <li>JSON parsing</li>
-            <li>HTML generation</li>
-          </ul>
-        </li>
-        <li>📱 Mobile Development
-          <ul>
-            <li>User input handling</li>
-            <li>Data formatting</li>
-            <li>Localization</li>
-            <li>Resource management</li>
-          </ul>
-        </li>
-        <li>💾 Data Processing
-          <ul>
-            <li>Text analysis</li>
-            <li>Data cleaning</li>
-            <li>Pattern matching</li>
-            <li>Report generation</li>
-          </ul>
-        </li>
-      </ul>
+        <h2>📝 Real-World Applications</h2>
+        <ul>
+          <li>🌐 Web Development
+            <ul>
+              <li>URL processing</li>
+              <li>Form validation</li>
+              <li>JSON parsing</li>
+              <li>HTML generation</li>
+            </ul>
+          </li>
+          <li>📱 Mobile Development
+            <ul>
+              <li>User input handling</li>
+              <li>Data formatting</li>
+              <li>Localization</li>
+              <li>Resource management</li>
+            </ul>
+          </li>
+          <li>💾 Data Processing
+            <ul>
+              <li>Text analysis</li>
+              <li>Data cleaning</li>
+              <li>Pattern matching</li>
+              <li>Report generation</li>
+            </ul>
+          </li>
+        </ul>
 
-      <h2>🎥 Video Tutorial: Strings in Java</h2>
-      <div style={{marginBottom: "1em"}}>
-        <iframe
-          width="800"
-          height="450"
-          src="https://www.youtube.com/embed/grEKMHGYyns"
-          title="Strings Tutorial"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
+        <h2>🎥 Video Tutorial: Strings in Java</h2>
+        <div style={{marginBottom: "1em"}}>
+          <iframe
+            width="800"
+            height="450"
+            src="https://www.youtube.com/embed/grEKMHGYyns"
+            title="Strings Tutorial"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+
+        <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
       </div>
-
-      <Link to="/DatastrAlg"><p>Back to Data Structures and Algorithms</p></Link>
     </>
   )
 }

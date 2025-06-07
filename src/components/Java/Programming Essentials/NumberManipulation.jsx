@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 export default function NumberManipulation() {
   return (
     <>
+      <div className="java-container">
       <h1>🔢 Number Manipulation in Java</h1>
       
       <p>
@@ -201,7 +202,7 @@ public class RandomNumberGenerator {
           allowFullScreen
         ></iframe>
       </div>
-
+    </div>
 
     </>
   )

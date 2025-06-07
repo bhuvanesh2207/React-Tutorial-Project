@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function AdvJava() {
   return (
-    <>
+    <div className="java-container">
       <h1>🚀 Advanced Java Programming</h1>
       
       <p>
@@ -128,6 +128,6 @@ export default function AdvJava() {
       <Link to="/ThreadsMultithreading"><p>Threads & Multithreading</p></Link>
       <Link to="/Serialization"><p>Serialization</p></Link>
       <Link to="/JavaAnnotations"><p>Java Annotations</p></Link>
-    </>
+    </div>
   )
 }

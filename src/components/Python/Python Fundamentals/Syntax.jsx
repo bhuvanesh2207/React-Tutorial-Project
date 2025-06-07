@@ -3,7 +3,7 @@ import React from 'react'
 export default function Syntax() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>📝 Python Syntax and Basic Data Types</h1>
         
         <p>

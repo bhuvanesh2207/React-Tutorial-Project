@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function DataAbstraction() {
   return (
-    <>
+    <div className="java-container">
       <h1>📚 Data Abstraction in Java</h1>
 
       <p>
@@ -191,6 +191,6 @@ public class Main {
           allowFullScreen
         ></iframe>
       </div>
-    </>
+    </div>
   )
 }

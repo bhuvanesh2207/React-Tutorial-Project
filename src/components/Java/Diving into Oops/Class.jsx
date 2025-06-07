@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Class() {
   return (
-    <>
+    <div className="java-container">
       <h1>📝 Classes in Java</h1>
       
       <p>
@@ -183,6 +183,6 @@ public class Car extends Vehicle {
         ></iframe>
       </div>
 
-    </>
+    </div>
   )
 }

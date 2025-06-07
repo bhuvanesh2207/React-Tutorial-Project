@@ -3,7 +3,7 @@ import React from 'react'
 export default function GettingStarted() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🚀 Getting Started with Python</h1>
         
         <p>

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function JavaAnnotations() {
   return (
-    <>
+    <div className="java-container">
       <h1>📝 Java Annotations</h1>
       
       <p>
@@ -221,6 +221,6 @@ public class UserController {
       </div>
 
       <Link to="/AdvJava"><p>Back to Advanced Java</p></Link>
-    </>
+    </div>
   )
 }

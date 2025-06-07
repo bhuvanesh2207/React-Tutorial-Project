@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function ThreadsMultithreading() {
   return (
-    <>
+    <div className="java-container">
       <h1>🔄 Threads & Multithreading in Java</h1>
       
       <p>
@@ -244,6 +244,6 @@ public class ProducerConsumer {
       </div>
 
       <Link to="/AdvJava"><p>Back to Advanced Java</p></Link>
-    </>
+    </div>
   )
 }

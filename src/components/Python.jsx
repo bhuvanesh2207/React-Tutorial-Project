@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import python_logo from "../images/python_logo.png"
 
 export default function Python() {
@@ -15,10 +16,10 @@ export default function Python() {
         </p>
         <img src={python_logo} alt="Python Logo" />
 
-        <Link to="/AdvancedPython"><p>Advanced Python</p></Link>
-        <Link to="/DataStructure"><p>Data Structure</p></Link>
-        <Link to="/DjangoFramework"><p>Django Framework</p></Link>
-        <Link to="/OOP"><p>OOP</p></Link>
+        <Link to="/python/advanced"><p>Advanced Python</p></Link>
+        <Link to="/python/data-structure"><p>Data Structure</p></Link>
+        <Link to="/python/django-framework"><p>Django Framework</p></Link>
+        <Link to="/python/oop"><p>OOP</p></Link>
         <Link to="/PythonFundamentals"><p>Python Fundamentals</p></Link>
 
       </div>

@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 export default function LoopingConstructs() {
   return (
     <>
+     <div className="java-container">
       <h1>🔄 Looping Constructs in Java</h1>
       
       <p>
@@ -226,7 +227,7 @@ public class LoopControlExample {
           allowFullScreen
         ></iframe>
       </div>
-
+    </div>
       
     </>
   )

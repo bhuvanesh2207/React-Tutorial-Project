@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Objects() {
   return (
-    <>
+    <div className="java-container">
       <h1>📦 Objects in Java</h1>
       
       <p>
@@ -169,6 +169,6 @@ public class Main {
         ></iframe>
       </div>
 
-    </>
+    </div>
   )
 }

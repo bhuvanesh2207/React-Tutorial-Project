@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function ExceptionHandling() {
   return (
-    <>
+    <div className="java-container">
       <h1>⚠️ Exception Handling in Java</h1>
       
       <p>
@@ -128,6 +128,8 @@ public class ResourceManagement {
             bufferedWriter.write(content);
         } catch (IOException e) {
             System.out.println("Error writing to file: " + e.getMessage());
+        } catch (Exception e) { // Catching a broader exception for demonstration
+            System.out.println("An unexpected error occurred: " + e.getMessage());
         }
     }
 }`}
@@ -177,7 +179,7 @@ public class ResourceManagement {
             <li>Request processing</li>
             <li>Data validation</li>
             <li>Session management</li>
-            <li>Error responses</li>
+          <li>Error responses</li>
           </ul>
         </li>
         <li>💾 File Systems
@@ -203,6 +205,6 @@ public class ResourceManagement {
       </div>
 
       <Link to="/AdvJava"><p>Back to Advanced Java</p></Link>
-    </>
+    </div>
   )
 }

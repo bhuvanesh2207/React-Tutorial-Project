@@ -3,7 +3,7 @@ import React from 'react'
 export default function Operators() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🔢 Operators in Python</h1>
         
         <p>

@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 export default function Methods() {
   return (
     <>
+       <div className="java-container">
       <h1>🔧 Java Methods</h1>
       
       <p>
@@ -110,8 +111,7 @@ export default function Methods() {
           allowFullScreen
         ></iframe>
       </div>
-
-      
+    </div>
     </>
   )
 }

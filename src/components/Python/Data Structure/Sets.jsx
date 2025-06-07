@@ -3,7 +3,7 @@ import React from 'react'
 export default function Sets() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🔢 Sets in Python</h1>
         
         <p>

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Serialization() {
   return (
-    <>
+    <div className="java-container">
       <h1>💾 Serialization in Java</h1>
       
       <p>
@@ -229,6 +229,6 @@ public class VersionedClass implements Serializable {
       </div>
 
       <Link to="/AdvJava"><p>Back to Advanced Java</p></Link>
-    </>
+    </div>
   )
 }

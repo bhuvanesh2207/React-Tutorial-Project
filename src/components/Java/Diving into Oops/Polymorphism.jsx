@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Polymorphism() {
   return (
-    <>
+    <div className="java-container">
       <h1>🔍 Polymorphism in Java</h1>
       
       <p>
@@ -209,6 +209,6 @@ public class Main {
           allowFullScreen
         ></iframe>
       </div>
-  </>
+    </div>
   )
 }

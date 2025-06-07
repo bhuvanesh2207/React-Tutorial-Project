@@ -1,9 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function DataCategories() {
   return (
-    <>
+    <div className="java-container">
       <h1>📊 Java Data Categories & Types</h1>
       
       <p>
@@ -126,8 +126,6 @@ class Person {
           allowFullScreen
         ></iframe>
       </div>
-
-      
-    </>
+    </div>
   )
 }

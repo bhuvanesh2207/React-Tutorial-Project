@@ -3,7 +3,7 @@ import React from 'react'
 export default function ControlConstructs() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>🔄 Control Constructs in Python</h1>
         
         <p>

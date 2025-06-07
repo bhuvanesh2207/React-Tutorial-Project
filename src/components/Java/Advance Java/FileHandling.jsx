@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function FileHandling() {
   return (
-    <>
+    <div className="java-container">
       <h1>📁 File Handling in Java</h1>
       
       <p>
@@ -235,6 +235,6 @@ public class AdvancedFileOperations {
       </div>
 
       <Link to="/AdvJava"><p>Back to Advanced Java</p></Link>
-    </>
+    </div>
   )
 }

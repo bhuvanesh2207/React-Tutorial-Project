@@ -3,28 +3,29 @@ import React from 'react'
 export default function Algorithms() {
   return (
     <>
-  <h2>🔢 Algorithms in Java</h2>
-  <p>
-    An <strong>algorithm</strong> is a set of well-defined instructions to solve a specific problem. In Java programming, algorithms form the backbone for writing efficient and optimized code. 
-    Understanding algorithms helps improve performance and scalability of applications. 🚀
-  </p>
+      <div className="java-container">
+        <h2>🔢 Algorithms in Java</h2>
+        <p>
+          An <strong>algorithm</strong> is a set of well-defined instructions to solve a specific problem. In Java programming, algorithms form the backbone for writing efficient and optimized code. 
+          Understanding algorithms helps improve performance and scalability of applications. 🚀
+        </p>
 
-  <h3>📚 Main Subtopics of Algorithms</h3>
-  <ul>
-    <li><strong>Sorting Algorithms:</strong> Methods to arrange data in a particular order (ascending/descending). Examples: Bubble Sort, Quick Sort, Merge Sort.</li>
-    <li><strong>Searching Algorithms:</strong> Techniques to find elements in data structures. Examples: Linear Search, Binary Search.</li>
-    <li><strong>Recursion:</strong> A function calling itself to break down problems into smaller parts. Examples: Fibonacci sequence, Factorial, Tower of Hanoi.</li>
-    <li><strong>Utility Algorithms:</strong> Common mathematical algorithms like GCD (Greatest Common Divisor) and prime checking.</li>
-  </ul>
+        <h3>📚 Main Subtopics of Algorithms</h3>
+        <ul>
+          <li><strong>Sorting Algorithms:</strong> Methods to arrange data in a particular order (ascending/descending). Examples: Bubble Sort, Quick Sort, Merge Sort.</li>
+          <li><strong>Searching Algorithms:</strong> Techniques to find elements in data structures. Examples: Linear Search, Binary Search.</li>
+          <li><strong>Recursion:</strong> A function calling itself to break down problems into smaller parts. Examples: Fibonacci sequence, Factorial, Tower of Hanoi.</li>
+          <li><strong>Utility Algorithms:</strong> Common mathematical algorithms like GCD (Greatest Common Divisor) and prime checking.</li>
+        </ul>
 
-  <h3>✨ Why Algorithms Matter</h3>
-  <p>
-    Algorithms help you write code that is not only correct but also efficient, minimizing execution time and resource use. They are essential for technical interviews and real-world applications like data processing, gaming, and machine learning. 💡
-  </p>
+        <h3>✨ Why Algorithms Matter</h3>
+        <p>
+          Algorithms help you write code that is not only correct but also efficient, minimizing execution time and resource use. They are essential for technical interviews and real-world applications like data processing, gaming, and machine learning. 💡
+        </p>
 
-  <h3>📝 Sample Java Code Implementing Common Algorithms</h3>
-  <pre style={{background: '#f4f4f4', padding: '15px', borderRadius: '8px', overflowX: 'auto'}}>
-    <code>{`
+        <h3>📝 Sample Java Code Implementing Common Algorithms</h3>
+        <pre style={{background: '#f4f4f4', padding: '15px', borderRadius: '8px', overflowX: 'auto'}}>
+          <code>{`
 public class Algorithms {
 
     public static void bubbleSort(int[] arr) {
@@ -168,26 +169,25 @@ public class Algorithms {
     }
 }
     `}</code>
-  </pre>
+        </pre>
 
-  <h3>🎥 Video Tutorial: Java Algorithms</h3>
-  <div style={{ marginBottom: '1em' }}>
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/8hly31xKli0"
-      title="Java Algorithms Tutorial"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-    ></iframe>
-    <br />
-    <small>
-      Source: <a href="https://www.youtube.com/watch?v=8hly31xKli0" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a>
-    </small>
-  </div>
-</>
-
-
+        <h3>🎥 Video Tutorial: Java Algorithms</h3>
+        <div style={{ marginBottom: '1em' }}>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/8hly31xKli0"
+            title="Java Algorithms Tutorial"
+           
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          <br />
+          <small>
+            Source: <a href="https://www.youtube.com/watch?v=8hly31xKli0" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a>
+          </small>
+        </div>
+      </div>
+    </>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function ExceptionHandling() {
   return (
     <>
-      <div className="python-container">
+      <div className="java-container">
         <h1>⚠️ Exception Handling in Python</h1>
         
         <p>

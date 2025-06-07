@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 
 export default function Oops() {
   return (
-    <>
+    <div className="java-container">
       <h1>🎯 Object-Oriented Programming (OOP)</h1>
       
       <p>
@@ -162,6 +162,6 @@ public class Dog extends Animal implements Movable {
       <Link to="/Inheritance"><p>Inheritance</p></Link>
       <Link to="/Polymorphism"><p>Polymorphism</p></Link>
       <Link to="/DataAbstraction"><p>Data Abstraction</p></Link>
-    </>
+    </div>
   )
 }
