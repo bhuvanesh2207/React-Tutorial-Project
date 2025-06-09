@@ -109,11 +109,13 @@ export default function Javaintro() {
         </div>
 
         <h2>📚 sub Topics</h2>
-        <Link to="/FirstJavaCode"><p>First Java Code</p></Link>
-        <Link to="/JavaBasics"><p>Java Basics</p></Link>
-        <Link to="/JavaVariablesFeatures"><p>Java Variables & Features</p></Link>
-        <Link to="/OOP"><p>Object-Oriented Programming</p></Link>
-        <Link to="/DecodeDataStructures"><p>Data Structures</p></Link>
+        <ul>
+          <li><Link to="/FirstJavaCode"><p>First Java Code</p></Link></li>
+          <li><Link to="/JavaBasics"><p>Java Basics</p></Link></li>
+          <li><Link to="/JavaVariablesFeatures"><p>Java Variables & Features</p></Link></li>
+          <li><Link to="/OOP"><p>Object-Oriented Programming</p></Link></li>
+          <li><Link to="/DecodeDataStructures"><p>Data Structures</p></Link></li>
+        </ul>
       </div>
     </>
   )

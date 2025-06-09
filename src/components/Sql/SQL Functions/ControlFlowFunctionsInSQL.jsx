@@ -139,7 +139,6 @@ FROM products;
           </small>
         </div>
       </div>
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
     </>
   );
 } 

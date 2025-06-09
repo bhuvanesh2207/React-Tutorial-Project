@@ -88,11 +88,11 @@ urlpatterns = [
         {/* Sub Topics Section */}
         <div className="subtopics-section">
           <h2>📚 sub Topics</h2>
-          <div>
-            <Link to="/DjangoIntro_P"><p>Django Intro</p></Link>
-            <Link to="/DjangoModels_P"><p>Django Models</p></Link>
-            <Link to="/DjangoViews_P"><p>Django Views</p></Link>
-          </div>
+          <ul>
+            <li><Link to="/DjangoIntro_P"><p>Django Intro</p></Link></li>
+            <li><Link to="/DjangoModels_P"><p>Django Models</p></Link></li>
+            <li><Link to="/DjangoViews_P"><p>Django Views</p></Link></li>
+          </ul>
         </div>
 
       </div>

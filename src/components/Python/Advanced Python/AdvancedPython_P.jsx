@@ -89,10 +89,10 @@ for num in count_up_to(5):
         {/* Sub Topics Section */}
         <div className="subtopics-section">
           <h2>📚 sub Topics</h2>
-          <div>
-            <Link to="/Decorators_P"><p>Decorators</p></Link>
-            <Link to="/ExceptionHandling_P"><p>Exception Handling</p></Link>
-          </div>
+          <ul>
+            <li><Link to="/Decorators_P"><p>Decorators</p></Link></li>
+            <li><Link to="/ExceptionHandling_P"><p>Exception Handling</p></Link></li>
+          </ul>
         </div>
 
       </div>

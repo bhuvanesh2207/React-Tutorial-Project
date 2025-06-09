@@ -115,10 +115,12 @@ export default function JavaOverview() {
         </div>
         
         <h2>📚 sub Topics</h2>
-        <Link to="/Operators"><p>Operators</p></Link>
-        <Link to="/DataCategories"><p>Data Categories & Types</p></Link>
-        <Link to="/Methods"><p>Methods</p></Link>
-        <Link to="/UserInput"><p>Taking User Input</p></Link>
+        <ul>
+          <li><Link to="/Operators"><p>Operators</p></Link></li>
+          <li><Link to="/DataCategories"><p>Data Categories & Types</p></Link></li>
+          <li><Link to="/Methods"><p>Methods</p></Link></li>
+          <li><Link to="/UserInput"><p>Taking User Input</p></Link></li>
+        </ul>
       </div>
     </>
   )

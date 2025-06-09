@@ -137,7 +137,6 @@ GROUP BY product_name;
           </small>
         </div>
       </div>
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
     </>
   );
 } 

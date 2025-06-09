@@ -107,12 +107,14 @@ export default function DatastrAlg() {
           ></iframe>
         </div>
 
-        <h2>📚 Sub Topics</h2>
-        <Link to="/AnatomyOfMain"><p>Anatomy of Main Method</p></Link>
-        <Link to="/Arrays"><p>Arrays and Array Operations</p></Link>
-        <Link to="/Strings"><p>String Manipulation</p></Link>
-        <Link to="/CollectionsFramework"><p>Collections Framework</p></Link>
-        <Link to="/Algorithms"><p>Common Algorithms</p></Link>
+        <h2>📚 sub Topics</h2>
+        <ul>
+          <li><Link to="/AnatomyOfMain"><p>Anatomy of Main Method</p></Link></li>
+          <li><Link to="/Arrays"><p>Arrays and Array Operations</p></Link></li>
+          <li><Link to="/Strings"><p>String Manipulation</p></Link></li>
+          <li><Link to="/CollectionsFramework"><p>Collections Framework</p></Link></li>
+          <li><Link to="/Algorithms"><p>Common Algorithms</p></Link></li>
+        </ul>
       </div>
     </>
   )

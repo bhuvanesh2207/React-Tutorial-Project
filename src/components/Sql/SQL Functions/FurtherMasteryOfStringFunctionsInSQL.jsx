@@ -145,8 +145,6 @@ SELECT RPAD('Code', 7, '-');
           allowFullScreen
         ></iframe>
       </div>
-      
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
     </div>
   );
 } 

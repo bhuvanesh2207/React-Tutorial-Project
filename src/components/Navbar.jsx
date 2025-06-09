@@ -8,26 +8,25 @@ function Navbar() {
           --body-bg-color: #0d0b14;
           --text-color: #ddd;
           --transition-duration: 0.3s;
-          --transition-delay: 0.2s;
         }
 
-        *, *::before, *::after {
-          box-sizing: border-box;
-        }
+        // *, *::before, *::after {
+        //   box-sizing: border-box;
+        // }
 
         body {
           margin: 0;
           font: 18px sans-serif;
           background: var(--body-bg-color);
           color: var(--text-color);
-          padding-top: 60px; /* reserve space for fixed navbar */
+          padding-top: 60px;
         }
 
         .navbar {
-          position: fixed; /* changed to fixed for more reliability */
+          position: fixed;
           top: 0;
           left: 0;
-          width: 100vw; /* use viewport width */
+          width: 100vw;
           padding: 15px 30px;
           display: flex;
           justify-content: space-between;
@@ -53,16 +52,14 @@ function Navbar() {
           text-decoration: none;
           font-weight: 500;
           font-size: 1rem;
-          position: relative;
           padding: 8px 12px;
           transition: color var(--transition-duration);
         }
 
         .menu a:hover {
           color: #00ffd5;
+          border-bottom: 2px solid #00ffd5;
         }
-
-        /* Your border animation styles here, same as before */
 
         @media (max-width: 768px) {
           .navbar {
@@ -85,18 +82,11 @@ function Navbar() {
 
       <nav className="navbar">
         <ul className="menu">
-          {['Home', 'Python', 'Java', 'SQL', 'Contact'].map((text, idx) => (
-            <li key={idx}>
-              <Link to={text === 'Home' ? '/' : `/${text.toLowerCase()}`}>
-                {text}
-                {/* border spans */}
-                <span className="border border-top"></span>
-                <span className="border border-right"></span>
-                <span className="border border-bottom"></span>
-                <span className="border border-left"></span>
-              </Link>
-            </li>
-          ))}
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/python">Python</Link></li>
+          <li><Link to="/java">Java</Link></li>
+          <li><Link to="/sql">SQL</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
     </>

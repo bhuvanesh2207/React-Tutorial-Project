@@ -106,11 +106,13 @@ make_it_fly(Airplane())  # Output: Airplane is flying`}
         </div>
         <div className="subtopics-section">
           <h2>📚 sub Topics</h2>
-         <Link to="/OOPIntro_P"><p>OOP Intro</p></Link>
-        <Link to="/Abstraction_P"><p>Abstraction</p></Link>
-        <Link to="/Encapsulation_P"><p>Encapsulation</p></Link>
-        <Link to="/Inheritance_P"><p>Inheritance</p></Link>
-        <Link to="/Polymorphism_P"><p>Polymorphism</p></Link>
+          <ul>
+            <li><Link to="/OOPIntro_P"><p>OOP Intro</p></Link></li>
+            <li><Link to="/Abstraction_P"><p>Abstraction</p></Link></li>
+            <li><Link to="/Encapsulation_P"><p>Encapsulation</p></Link></li>
+            <li><Link to="/Inheritance_P"><p>Inheritance</p></Link></li>
+            <li><Link to="/Polymorphism_P"><p>Polymorphism</p></Link></li>
+          </ul>
         </div>
       </div>
     </>

@@ -70,16 +70,15 @@ print(my_tuple)  # Output: (1, 2, 3, 4, 5)`}
           ></iframe>
         </div>
         {/* Sub Topics Section */}
-          <div className="subtopics-section">
-            <h2>📚 sub Topics</h2>
-            <div>
-              <Link to="/Dictionaries"><p>Dictionaries</p></Link>
-              <Link to="/Lists"><p>Lists</p></Link>
-              <Link to="/Sets"><p>Sets</p></Link>
-              <Link to="/Tuples"><p>Tuples</p></Link>
-            </div>
-          </div>
-
+        <div className="subtopics-section">
+          <h2>📚 sub Topics</h2>
+          <ul>
+            <li><Link to="/Dictionaries"><p>Dictionaries</p></Link></li>
+            <li><Link to="/Lists"><p>Lists</p></Link></li>
+            <li><Link to="/Sets"><p>Sets</p></Link></li>
+            <li><Link to="/Tuples"><p>Tuples</p></Link></li>
+          </ul>
+        </div>
       </div>
     </>
   )

@@ -10,6 +10,7 @@ function Home() {
   return (
     <>
       <style>{`
+        /* Basic body styles and background */
         body {
           margin: 0;
           font-family: 'Poppins', sans-serif;
@@ -24,6 +25,7 @@ function Home() {
           text-shadow: 0 0 12px rgba(0,0,0,0.85);
         }
 
+        /* Fade and slide animation for heading */
         @keyframes fadeSlideIn {
           0% {
             opacity: 0;
@@ -35,6 +37,7 @@ function Home() {
           }
         }
 
+        /* Animated hero heading styles */
         .hero-heading {
           font-size: 2.5rem;
           font-weight: 800;
@@ -47,28 +50,16 @@ function Home() {
           justify-content: center;
         }
 
+        /* Intro and outro text container */
         .home-intro, .home-outro {
           max-width: 900px;
           margin-bottom: 40px;
           text-align: center;
-          color: #fefefecc; /* near pure white */
+          color: #fefefecc;
           text-shadow: 0 0 10px rgba(0,0,0,0.9);
         }
 
-        .home-intro h1 {
-          font-size: 2.7rem;
-          margin-bottom: 15px;
-          color: #ffffff;
-          text-shadow: 0 0 16px rgba(0,0,0,0.95);
-        }
-
-        .home-intro p,
-        .home-outro p {
-          font-size: 1.15rem;
-          line-height: 1.6;
-          margin-bottom: 12px;
-        }
-
+        /* Individual letter styling with hover effect */
         .letter {
           color: #ccc;
           display: inline-block;
@@ -77,17 +68,14 @@ function Home() {
           cursor: default;
           user-select: none;
         }
-
-        /* On hover, change color and add shadow on both sides of the letter */
         .letter:hover {
           color: #00ffd5;
-          text-shadow:
-            -2px 0 4px rgba(0, 255, 213, 0.7),
-            2px 0 4px rgba(0, 255, 213, 0.7);
+          text-shadow: -2px 0 4px rgba(0, 255, 213, 0.7), 2px 0 4px rgba(0, 255, 213, 0.7);
           transform: scale(1.3);
           z-index: 1;
         }
 
+        /* Container for the language flip cards */
         .flip-box-row {
           display: flex;
           justify-content: space-between;
@@ -97,6 +85,7 @@ function Home() {
           margin-bottom: 40px;
         }
 
+        /* Individual flip card */
         .flip-box {
           flex: 1;
           aspect-ratio: 3 / 4;
@@ -106,6 +95,7 @@ function Home() {
           cursor: pointer;
         }
 
+        /* Inner flip card with animation */
         .flip-box-inner {
           width: 100%;
           height: 100%;
@@ -116,12 +106,12 @@ function Home() {
           border-radius: 15px;
           background-color: rgba(255,255,255,0.1);
         }
-
         .flip-box:hover .flip-box-inner {
           transform: rotateY(180deg);
           box-shadow: 0 0 40px rgba(255, 0, 255, 0.8);
         }
 
+        /* Front side of flip card */
         .flip-box-front,
         .flip-box-back {
           position: absolute;
@@ -135,16 +125,15 @@ function Home() {
           align-items: center;
           padding: 20px;
           box-sizing: border-box;
-          color: #ffffff; /* bright white */
+          color: #ffffff;
           text-shadow: 0 0 10px rgba(0,0,0,0.85);
         }
 
-        /* FRONT SIDE */
+        /* Front styling */
         .flip-box-front {
-          background: rgba(10, 10, 35, 0.95); /* slightly more opaque for contrast */
+          background: rgba(10, 10, 35, 0.95);
           border: 2px solid rgba(255, 255, 255, 0.4);
         }
-
         .flip-box-front h2 {
           margin: 0;
           font-size: 1.9rem;
@@ -153,17 +142,14 @@ function Home() {
           color: #ffffff;
           text-shadow: 0 0 14px rgba(0,0,0,0.95);
         }
-
         .flip-box-front img {
           width: 80px;
           height: 80px;
           object-fit: contain;
           margin: 15px 0;
-          display: block;
           border-radius: 15px;
           filter: drop-shadow(0 0 4px rgba(0,0,0,0.9));
         }
-
         .flip-box-front p {
           font-size: 1.05rem;
           text-align: center;
@@ -171,8 +157,7 @@ function Home() {
           line-height: 1.4;
           color: #f5f5f5;
         }
-
-        .flip-box-front .hover-text {
+        .hover-text {
           font-size: 0.9rem;
           font-weight: 600;
           margin-top: auto;
@@ -185,7 +170,7 @@ function Home() {
           user-select: none;
         }
 
-        /* BACK SIDE */
+        /* Back styling */
         .flip-box-back {
           background: linear-gradient(135deg, #ff4e50, #f9d423);
           color: #1a1a1a;
@@ -194,13 +179,11 @@ function Home() {
           padding-bottom: 30px;
           text-shadow: none;
         }
-
         .flip-box-back h3 {
           margin-top: 0;
           font-size: 1.5rem;
           text-align: center;
         }
-
         .flip-box-back p {
           text-align: center;
           margin: 15px 0 25px 0;
@@ -209,6 +192,7 @@ function Home() {
           line-height: 1.5;
         }
 
+        /* Learn more button/link */
         .learn-more-btn,
         .flip-box-back a {
           display: block;
@@ -216,7 +200,6 @@ function Home() {
           padding: 10px 25px;
           background: #3b0088;
           color: white;
-          border: none;
           border-radius: 25px;
           font-weight: 700;
           font-size: 1rem;
@@ -228,20 +211,19 @@ function Home() {
           text-align: center;
           width: fit-content;
         }
-
         .learn-more-btn:hover,
         .flip-box-back a:hover {
           background: #5a00bb;
           text-decoration: none !important;
         }
 
+        /* Responsive flip boxes */
         @media (max-width: 900px) {
           .flip-box-row {
             flex-direction: column;
             align-items: center;
             gap: 30px;
           }
-
           .flip-box {
             width: 80%;
             max-width: none;
@@ -249,7 +231,7 @@ function Home() {
         }
       `}</style>
 
-      {/* Intro Content */}
+      {/* Intro section with animated heading */}
       <div className="home-intro">
         <h1 className="hero-heading" aria-label={headingText}>
           {headingText.split("").map((char, index) => (
@@ -280,7 +262,7 @@ function Home() {
         </p>
       </div>
 
-      {/* Flip Boxes */}
+      {/* Flip cards for Python, Java, and SQL */}
       <div className="flip-box-row">
         <div className="flip-box">
           <div className="flip-box-inner">
@@ -331,7 +313,7 @@ function Home() {
         </div>
       </div>
 
-      {/* Outro */}
+      {/* Outro encouraging users to start learning */}
       <div className="home-outro">
         <p>
           Ready to start? Explore our tutorials and build your coding skills with confidence.

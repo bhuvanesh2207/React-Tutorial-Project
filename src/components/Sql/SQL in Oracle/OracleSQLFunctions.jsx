@@ -127,10 +127,11 @@ FROM employees;
           </small>
         </div>
       </div>
+      <h2>📚 sub Topics</h2>
       <ul>
-        <li><Link to="/ControlFlowandConversionFunctionsinOracle">ControlFlowandConversionFunctionsinOracle</Link></li>
-        <li><Link to="/SQLinOracle">SQLinOracle</Link></li>
-        <li><Link to="/TheDualTableinOracle">TheDualTableinOracle</Link></li>
+        <li><Link to="/ControlFlowandConversionFunctionsinOracle"><p>Control Flow and Conversion Functions in Oracle</p></Link></li>
+        <li><Link to="/SQLinOracle"><p>SQL in Oracle</p></Link></li>
+        <li><Link to="/TheDualTableinOracle"><p>The Dual Table in Oracle</p></Link></li>
       </ul>
     </>
   );

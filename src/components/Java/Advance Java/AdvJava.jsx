@@ -123,11 +123,13 @@ export default function AdvJava() {
       </div>
       
       <h2>📚 sub Topics</h2>
-      <Link to="/ExceptionHandling"><p>Exception Handling</p></Link>
-      <Link to="/FileHandling"><p>File Handling</p></Link>
-      <Link to="/ThreadsMultithreading"><p>Threads & Multithreading</p></Link>
-      <Link to="/Serialization"><p>Serialization</p></Link>
-      <Link to="/JavaAnnotations"><p>Java Annotations</p></Link>
+      <ul>
+        <li><Link to="/ExceptionHandling"><p>Exception Handling</p></Link></li>
+        <li><Link to="/FileHandling"><p>File Handling</p></Link></li>
+        <li><Link to="/ThreadsMultithreading"><p>Threads & Multithreading</p></Link></li>
+        <li><Link to="/Serialization"><p>Serialization</p></Link></li>
+        <li><Link to="/JavaAnnotations"><p>Java Annotations</p></Link></li>
+      </ul>
     </div>
   )
 }

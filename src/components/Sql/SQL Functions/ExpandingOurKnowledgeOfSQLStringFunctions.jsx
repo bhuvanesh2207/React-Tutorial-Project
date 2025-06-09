@@ -155,8 +155,6 @@ SELECT RPAD('abc', 5, '*');
           allowFullScreen
         ></iframe>
       </div>
-      
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
     </div>
   );
 } 

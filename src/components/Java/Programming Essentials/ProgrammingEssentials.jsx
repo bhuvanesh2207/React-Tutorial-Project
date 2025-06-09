@@ -136,11 +136,13 @@ export default function ProgrammingEssentials() {
         </div>
 
         <h2>📚 sub Topics</h2>
-        <Link to="/ControlConstructs"><p>Control Constructs</p></Link>
-        <Link to="/LoopingConstructs"><p>Looping Constructs</p></Link>
-        <Link to="/JumpStatements"><p>Jump Statements</p></Link>
-        <Link to="/NumberManipulation"><p>Number Manipulation</p></Link>
-        <Link to="/PatternPrograms"><p>Pattern Programs</p></Link>
+        <ul>
+          <li><Link to="/ControlConstructs"><p>Control Constructs</p></Link></li>
+          <li><Link to="/LoopingConstructs"><p>Looping Constructs</p></Link></li>
+          <li><Link to="/JumpStatements"><p>Jump Statements</p></Link></li>
+          <li><Link to="/NumberManipulation"><p>Number Manipulation</p></Link></li>
+          <li><Link to="/PatternPrograms"><p>Pattern Programs</p></Link></li>
+        </ul>
       </div>
     </>
   )

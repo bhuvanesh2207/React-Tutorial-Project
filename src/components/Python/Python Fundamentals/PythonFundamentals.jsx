@@ -81,16 +81,16 @@ print(greet("Alice"))  # Output: Hello, Alice!`}
         </div>
         {/* Sub Topics Section */}
         <div className="subtopics-section">
-         <h2>📚 sub Topics</h2>
-          <div>
-            <Link to="/Introduction"><p>Introduction</p></Link>
-            <Link to="/GettingStarted"><p>Getting Started</p></Link>
-            <Link to="/Syntax"><p>Syntax</p></Link>
-            <Link to="/UserInput"><p>User Input</p></Link>
-            <Link to="/Operators"><p>Operators</p></Link>
-            <Link to="/ControlConstructs"><p>Control Constructs</p></Link>
-            <Link to="/Functions"><p>Functions</p></Link>
-          </div>
+          <h2>📚 sub Topics</h2>
+          <ul>
+            <li><Link to="/Introduction"><p>Introduction</p></Link></li>
+            <li><Link to="/GettingStarted"><p>Getting Started</p></Link></li>
+            <li><Link to="/Syntax"><p>Syntax</p></Link></li>
+            <li><Link to="/UserInput"><p>User Input</p></Link></li>
+            <li><Link to="/Operators"><p>Operators</p></Link></li>
+            <li><Link to="/ControlConstructs"><p>Control Constructs</p></Link></li>
+            <li><Link to="/Functions"><p>Functions</p></Link></li>
+          </ul>
         </div>
 
       </div>

@@ -156,12 +156,14 @@ public class Dog extends Animal implements Movable {
       </div>
 
       <h2>📚 sub Topics</h2>
-      <Link to="/Objects"><p>Objects</p></Link>
-      <Link to="/Class"><p>Classes</p></Link>
-      <Link to="/Encapsulation"><p>Encapsulation</p></Link>
-      <Link to="/Inheritance"><p>Inheritance</p></Link>
-      <Link to="/Polymorphism"><p>Polymorphism</p></Link>
-      <Link to="/DataAbstraction"><p>Data Abstraction</p></Link>
+      <ul>
+        <li><Link to="/Objects"><p>Objects</p></Link></li>
+        <li><Link to="/Class"><p>Classes</p></Link></li>
+        <li><Link to="/Encapsulation"><p>Encapsulation</p></Link></li>
+        <li><Link to="/Inheritance"><p>Inheritance</p></Link></li>
+        <li><Link to="/Polymorphism"><p>Polymorphism</p></Link></li>
+        <li><Link to="/DataAbstraction"><p>Data Abstraction</p></Link></li>
+      </ul>
     </div>
   )
 }

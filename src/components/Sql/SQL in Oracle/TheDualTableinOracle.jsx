@@ -95,7 +95,6 @@ SELECT CASE WHEN 1 IN (SELECT 1 FROM dual) THEN 'Yes' ELSE 'No' END FROM dual;
           </small>
         </div>
       </div>
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
     </>
   );
 }
