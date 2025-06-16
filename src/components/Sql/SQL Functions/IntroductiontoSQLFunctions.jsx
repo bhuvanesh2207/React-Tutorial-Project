@@ -105,18 +105,18 @@ FROM customers;
           </small>
         </div>
       </div>
+      <h2>📚 sub Topics</h2>
       <ul>
-        <li><Link to="/ContinuingOurJourneyWithSQLStringFunctions">ContinuingOurJourneyWithSQLStringFunctions</Link></li>
-        <li><Link to="/ContinuingwithMySQLStringFunctions">ContinuingwithMySQLStringFunctions</Link></li>
-        <li><Link to="/ControlFlowFunctionsInSQL">ControlFlowFunctionsInSQL</Link></li>
-        <li><Link to="/DateAndTimeFunctionsInSQL">DateAndTimeFunctionsInSQL</Link></li>
-        <li><Link to="/ExpandingOurKnowledgeOfSQLStringFunctions">ExpandingOurKnowledgeOfSQLStringFunctions</Link></li>
-        <li><Link to="/FurtherMasteryOfStringFunctionsInSQL">FurtherMasteryOfStringFunctionsInSQL</Link></li>
-        <li><Link to="/MasteringConcat">MasteringConcat</Link></li>
-        <li><Link to="/MasteringNumberFunctionsInSQL">MasteringNumberFunctionsInSQL</Link></li>
-        <li><Link to="/MultiRowFunctionsInSQL">MultiRowFunctionsInSQL</Link></li>
+        <li><Link to="/ContinuingOurJourneyWithSQLStringFunctions"><p>Continuing Our Journey With SQL String Functions</p></Link></li>
+        <li><Link to="/ContinuingwithMySQLStringFunctions"><p>Continuing with MySQL String Functions</p></Link></li>
+        <li><Link to="/ControlFlowFunctionsInSQL"><p>Control Flow Functions In SQL</p></Link></li>
+        <li><Link to="/DateAndTimeFunctionsInSQL"><p>Date And Time Functions In SQL</p></Link></li>
+        <li><Link to="/ExpandingOurKnowledgeOfSQLStringFunctions"><p>Expanding Our Knowledge Of SQL String Functions</p></Link></li>
+        <li><Link to="/FurtherMasteryOfStringFunctionsInSQL"><p>Further Mastery Of String Functions In SQL</p></Link></li>
+        <li><Link to="/MasteringConcat"><p>Mastering Concat</p></Link></li>
+        <li><Link to="/MasteringNumberFunctionsInSQL"><p>Mastering Number Functions In SQL</p></Link></li>
+        <li><Link to="/MultiRowFunctionsInSQL"><p>Multi Row Functions In SQL</p></Link></li>
       </ul>
-
     </>
   );
 }

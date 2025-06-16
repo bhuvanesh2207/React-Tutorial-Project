@@ -184,7 +184,10 @@ CROSS JOIN Products;`}
         ></iframe>
       </div>
       
-      <Link to="/sql"><p>Back to SQL Overview</p></Link>
+      <h3>Navigation</h3>
+      <ul>
+        <li><Link to="/sql"><p>Back to SQL Overview</p></Link></li>
+      </ul>
     </div>
   );
 } 

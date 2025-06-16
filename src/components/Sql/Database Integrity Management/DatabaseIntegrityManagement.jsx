@@ -86,13 +86,14 @@ CREATE TABLE Orders (
           </small>
         </div>
       </div>
-      <div>
-        <Link to="/DatabaseSchemaDesign"><p>Database Schema Design</p></Link>
-        <Link to="/DataIntegrityEnhancement"><p>Data Integrity Enhancement</p></Link>
-        <Link to="/DataRelationships"><p>Data Relationships</p></Link>
-        <Link to="/SQLAliases"><p>SQL Aliases</p></Link>
-        <Link to="/SQLConstraints"><p>SQL Constraints</p></Link>
-      </div>
+      <h3>Related Topics</h3>
+      <ul>
+        <li><Link to="/DatabaseSchemaDesign"><p>Database Schema Design</p></Link></li>
+        <li><Link to="/DataIntegrityEnhancement"><p>Data Integrity Enhancement</p></Link></li>
+        <li><Link to="/DataRelationships"><p>Data Relationships</p></Link></li>
+        <li><Link to="/SQLAliases"><p>SQL Aliases</p></Link></li>
+        <li><Link to="/SQLConstraints"><p>SQL Constraints</p></Link></li>
+      </ul>
     </>
   );
 }

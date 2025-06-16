@@ -86,7 +86,10 @@ END;
           </small>
         </div>
       </div>
-      <Link to="/DatabaseIntegrityManagement"><p>Back to Database Integrity Management</p></Link>
+      <h2>📚 sub Topics</h2>
+      <ul>
+        <li><Link to="/DatabaseIntegrityManagement"><p>Back to Database Integrity Management</p></Link></li>
+      </ul>
     </>
   );
 }

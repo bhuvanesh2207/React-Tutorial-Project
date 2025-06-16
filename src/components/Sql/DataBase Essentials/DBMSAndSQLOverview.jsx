@@ -107,9 +107,12 @@ GRANT SELECT, INSERT ON Suppliers TO 'app_user';
           </small>
         </div>
       </div>
-      <Link to="/IntroductionToDatabases"><p>Introduction To Databases</p></Link>
-      <Link to="/SettingUptheStageforAction"><p>Setting Up the Stage for Action</p></Link>
-      <Link to="/UnderstandingData"><p>Understanding Data</p></Link>
+      <h3>Related Topics</h3>
+      <ul>
+        <li><Link to="/IntroductionToDatabases"><p>Introduction To Databases</p></Link></li>
+        <li><Link to="/SettingUptheStageforAction"><p>Setting Up the Stage for Action</p></Link></li>
+        <li><Link to="/UnderstandingData"><p>Understanding Data</p></Link></li>
+      </ul>
     </>
   );
 }
