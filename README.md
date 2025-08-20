@@ -5,8 +5,8 @@ This project is a **React-based Tutorial App** that helps users learn different 
 Each tutorial includes an explanation along with a **reference video** to make learning interactive and effective.
 
 
-🔗 **[Live Demo](https://bhuvanesh-react-tutorial-app.netlify.app/)**  
----
+ [Live Demo](https://bhuvanesh-react-tutorial-app.netlify.app/)  
+
 
 ## 💻 Tech Stack  
 
@@ -47,6 +47,10 @@ cd react-tutorial-learning-app
 
 # Install dependencies
 npm install   # or yarn install
+
+# Start the development server
+npm start     # or yarn start
+
 ```
 
 ## 🎯 Conclusion
@@ -55,5 +59,9 @@ It is a great project for both learners (to explore coding tutorials) and develo
 
 Future improvements can include features like user progress tracking, quizzes, or bookmarking tutorials to enhance the learning experience.
 
-# Start the development server
-npm start     # or yarn start
+
+## 📞 Contact  
+For any questions or suggestions, feel free to reach out:  
+
+- **Email:** bhuvaneshb546@gmail.com
+- **LinkedIn:** [Bhuvanesh KR](https://www.linkedin.com/in/bhuvanesh-kr/)  
