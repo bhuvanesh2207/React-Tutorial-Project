@@ -1,12 +1,59 @@
-# React + Vite
+# 📘 React Tutorial Learning App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview  
+This project is a **React-based Tutorial App** that helps users learn different programming languages such as **Python, Java, and SQL**.  
+Each tutorial includes an explanation along with a **reference video** to make learning interactive and effective.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **[Live Demo](https://bhuvanesh-react-tutorial-app.netlify.app/)**  
+---
 
-## Expanding the ESLint configuration
+## 💻 Tech Stack  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend framework for building the UI  
+- **JavaScript (ES6+)** – Core scripting language  
+- **HTML5** – Page structure  
+- **CSS3** – Styling (no external frameworks used)  
+
+---
+
+## 🔑 Key Features  
+
+- ✅ Learn tutorials on **Python, Java, SQL, and more**  
+- ✅ Integrated **video references** for each tutorial  
+- ✅ Simple and responsive UI built with **HTML & CSS**  
+- ✅ Beginner-friendly project for understanding React components and state  
+
+---
+
+## 🛠 Setup Guide  
+
+### 🔧 Prerequisites  
+Make sure you have the following installed:  
+
+| Requirement      | Version | Download Link                                                                 |
+|------------------|---------|-------------------------------------------------------------------------------|
+| **Node.js**      | 16+     | [Download](https://nodejs.org/en/download/)                                   |
+| **npm / yarn**   | Latest  | [Download npm](https://www.npmjs.com/get-npm) or [Download Yarn](https://yarnpkg.com/) |
+
+---
+
+### 🚀 Installation & Running the Project  
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/react-tutorial-learning-app.git
+cd react-tutorial-learning-app
+
+# Install dependencies
+npm install   # or yarn install
+```
+
+## 🎯 Conclusion
+The React Tutorial Learning App provides an easy way to explore programming languages through structured tutorials and video references.
+It is a great project for both learners (to explore coding tutorials) and developers (to practice building apps using React, HTML, and CSS).
+
+Future improvements can include features like user progress tracking, quizzes, or bookmarking tutorials to enhance the learning experience.
+
+# Start the development server
+npm start     # or yarn start
